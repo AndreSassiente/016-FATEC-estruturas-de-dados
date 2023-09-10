@@ -2,14 +2,14 @@
 	Cada atividade deve atender os requisitos
 
 	* Declarar o tipo abstrato de dados
-	* Criar uma vari·vel do tipo abstrato de dados
-	* Ler os dados do teclado e preencher os campos da vari·vel
-	* Exibir na tela os campos preenchidos da vari·vel do tipo abstrato de dados
+	* Criar uma vari√°vel do tipo abstrato de dados
+	* Ler os dados do teclado e preencher os campos da vari√°vel
+	* Exibir na tela os campos preenchidos da vari√°vel do tipo abstrato de dados
 
 	ATIVIDADE 02
 
 	Construir um programa em Linguagem C que implemente uma estrutura pedido (struct pedido),
-	permitindo o cadastro e exibiÁ„o com os seguintes campos:
+	permitindo o cadastro e exibi√ß√£o com os seguintes campos:
 
 	* numero do pedido
 	* nome-cliente
@@ -19,11 +19,11 @@
 		numero
 		bairro
 		coomplemento
-	itens[10] (deve ser um tipo abstrato para item)
+	* itens[10] (deve ser um tipo abstrato para item)
 		sabor
 		tamanho
 		quantidade
-	pagamento (deve ser um tipo abstrato para pagamento)
+	* pagamento (deve ser um tipo abstrato para pagamento)
 		forma de pagamento
 		valor pedido
 */
@@ -72,7 +72,7 @@ int ii = 1;
 int pedidoSelecionado = 0;
 
 
-// funÁıes
+// fun√ß√µes
 int cadastrar() {
 
 	system("cls");
